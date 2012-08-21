@@ -2,7 +2,7 @@
 <html>
 <head>
   <title>{{#title}}{{title}} | {{/title}}{{>conf_title}}</title>
-<link rel="stylesheet" type="text/css" href="http://ycombinator.com/news.css" />
+  <link rel="stylesheet" type="text/css" href="{{>conf_path}}layout.css" />
 <link rel="shortcut icon" href="{{>conf_logo}}" />
 <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
 <script type="text/javascript" src="{{>conf_path}}site.js"></script>
@@ -14,11 +14,6 @@ $(function() {
 });
 </script>
 
-<style>
-.comment p:first-child {
-    margin-top:0;
-}
-</style>
 
 </head>
 
