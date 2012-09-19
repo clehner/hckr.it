@@ -1,10 +1,10 @@
 module.exports = {
-    conf_title: 'THE ESOTERAMATIC',
-    conf_path : '/',
+    conf_title: 'News',
+    conf_path : '',
     conf_perpage : '30',
 
-    conf_logo : '{{>conf_path}}sinoise.png',
-    conf_color: '#e3e3e3',
+    conf_logo : '{{>conf_path}}cookie-monster.gif',
+    conf_color: '#D9E7FF',
     conf_about : 'about',
 
     conf_point : 'point',
